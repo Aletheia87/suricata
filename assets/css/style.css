@@ -1,0 +1,76 @@
+body{
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+.bg-rosado {
+ background-color: #E83E8C;
+}
+
+nav {
+    color: #ffffff;
+}
+.titulo {
+    color: #707070;
+    text-align: center;
+    font: 'Open Sans';
+    font-weight: 700;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.card-title {
+    font: 'Open Sans';
+    font-weight: 700;
+    color: #373A3C;
+}
+
+.list-group-item {
+    font: 'Open Sans';
+    font-weight: 300;
+    color: #373A3C;
+    font-size: small;
+}
+
+.pago {
+    margin-top: 5rem;
+    text-align: center;
+    background: #17A2B8;
+    color: #ffffff;
+    width: 100%;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+h2 {
+    font: 'Open Sans' bold;
+    vertical-align: middle;    
+}
+
+.cards {
+    display: inline-flex;
+}
+
+.tarjeta {
+    margin-left: 2rem;
+}
+
+.row {
+    margin-bottom: 4rem;
+}
+
+.logo-footer {
+    height: 5rem;
+} 
+
+.logo {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-left: 50%;
+}
+
+@media (max-width: 320px) {
+    .pago {
+        display: none;
+    }
+}
+    
